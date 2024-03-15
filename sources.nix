@@ -26,7 +26,7 @@ in {
         owner = "plutonomicon";
         repo = "plutarch-plutus";
         rev = "8d6ca9e5ec8425c2f52faf59a4737b4fd96fb01b";
-        hash = "sha256-CIUbOt1uSz8MgdcuGce/AoTSA1BRKWlqrxhNPFUayj4=";
+        hash = "sha256-dMdJxXiBJV7XSInGeSR90/sTWHTxBm3DLaCzpN1SER0=";
       };
     };
   };
