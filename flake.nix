@@ -16,11 +16,13 @@
       perSystem = { config, system, inputs', self', ... }:
         let
           pkgs = import inputs.nixpkgs { inherit system; };
-          herbage = inputs.herbage.lib { inherit system pkgs; };
+          herbage = inputs.herbage.lib { inherit pkgs; };
 
         in {
-          packages.hackage = herbage.genHackage ./my-private-keys
-            (import ./sources.nix { inherit pkgs; });
+          packages.hackage =
+            herbage.genHackage
+              ./my-private-keys
+              (import ./sources.nix { inherit pkgs; });
         };
     };
 }

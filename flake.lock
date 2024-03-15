@@ -42,11 +42,11 @@
         "nixpkgs": "nixpkgs"
       },
       "locked": {
-        "lastModified": 1710448827,
-        "narHash": "sha256-DXpB1bUQpuytC55+Qva3zcJ/dpbcwub9tdZG1iyWGCQ=",
+        "lastModified": 1710460987,
+        "narHash": "sha256-q8X9tAo1TTHlo0XTLg/3nRPx4JdCC5UK6SKxiZ2hSRQ=",
         "owner": "seungheonoh",
         "repo": "herbage",
-        "rev": "111062843d68b55811efe59aa156a531db222e01",
+        "rev": "4a003c5b9258f791b44108e50964d931aac2dce3",
         "type": "github"
       },
       "original": {
@@ -108,11 +108,11 @@
     },
     "nixpkgs_2": {
       "locked": {
-        "lastModified": 1710448502,
-        "narHash": "sha256-n/YK3+bAVtL5aaTlSK7PrI1Yo6BHM03hz0Ws7CPHQ1Q=",
+        "lastModified": 1710460172,
+        "narHash": "sha256-iPzQZtUpda5lxCd6xwfbc3LhTig1P9AuCJknYyB8XDs=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "cc55c66cacaff32e345c620d04336774d9091168",
+        "rev": "5ed2a8b6857ef5c6e7dc9496f574ad61bb6bfcd5",
         "type": "github"
       },
       "original": {
