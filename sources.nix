@@ -1,11 +1,5 @@
 { pkgs }:
-let
-  subDirectory = dir: src:
-    pkgs.runCommand "subdir-${dir}" { } ''
-      mkdir $out
-      cp -r ${src}/${dir}/* $out
-    '';
-in {
+{
   liqwid-plutarch-extra = {
     "3.21.1" = {
       timestamp = "2024-01-16T11:00:00Z";
